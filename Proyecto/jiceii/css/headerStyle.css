@@ -1,0 +1,35 @@
+.header_area {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+body {
+    line-height: 26px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #676767;
+}
+
+.header_area .navbar {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.tc-modal .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    min-width: 50%;
+}
+
+.tc-modal {
+    text-align: center;
+}

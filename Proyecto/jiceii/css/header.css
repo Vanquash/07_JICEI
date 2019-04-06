@@ -1,0 +1,42 @@
+/*==================HEADER===========================*/
+
+.container-portada {
+    width: 100%;
+    height: 400px;
+    background-image: url(images/fondo.jpg);
+    background-size: 20%;
+    /*animation: movimiento 20s infinite linear alternate;*/
+    position: relative;
+}
+
+
+/*==================LOGO===========================*/
+
+.imgfix {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    z-index: 2500;
+    margin-left: 35%;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.banind {
+    margin-top: 15px;
+}
+
+
+/*=================BANNER========================*/
+
+.img_baner {
+    width: 100%;
+    height: 300px;
+}
+
+.img_benef {
+    width: 67%;
+    height: 300px;
+}

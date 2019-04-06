@@ -1,0 +1,7 @@
+.anim_hover_3 {
+    transition: transform 1.5s linear;
+}
+
+.anim_hover_3:hover {
+    transform: rotatey(180deg);
+}

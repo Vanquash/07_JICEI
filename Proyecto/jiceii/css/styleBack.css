@@ -1,0 +1,60 @@
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: black;
+}
+
+.cintillo{
+    background: #5de100;
+    text-align: center;
+    color: white;
+}
+
+.personal_menu{
+    background: rgb(255, 174, 0)
+}
+
+.produccion_menu{
+    background: orangered;
+}
+
+.comentario_menu{
+    background: green;
+}
+
+.catalogo_menu{
+    background: grey;
+}
+
+.faq_menu{
+    background: red;
+}
+
+.logout_menu{
+ background: rgb(0, 124, 161);
+}
+
+/*////////////////////////////////////*/
+.imagen_menu{
+   height: 100px;
+   width: 50%;
+   margin-left: 25%;
+}
+
+/*////////////////////////////////////*/
+.formulario{
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/******************************/
+.alerta{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}

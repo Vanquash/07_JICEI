@@ -1,0 +1,33 @@
+.anim_hover_3{
+
+	transition: transform 1.5s linear;
+}
+
+
+.anim_hover_3:hover{
+	
+	transform: rotatey(180deg);
+
+}
+
+@keyframes opacidad{
+
+	from{
+		
+		opacity: 0;
+
+		}to{
+
+		opacity: 1;
+		}
+}
+
+img.anim_opacity{
+
+	animation-name: opacidad;
+		animation-duration: 5s;
+		animation-timing-function: ease-out;
+		
+	
+	
+	}

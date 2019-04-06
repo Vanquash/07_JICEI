@@ -1,0 +1,301 @@
+* {
+    margin: 10;
+    padding: 0;
+    /*-webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;*/
+}
+
+#publi {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.content-all {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+
+.content-img {
+    width: 400px;
+    height: 280px;
+    margin: 20px;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-img img {
+    width: 150%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-1 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(56, 142, 60, .4);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -750px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-2 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(56, 142, 60, .4);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -800px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.content-3 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(56, 142, 60, .4);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -800px;
+    margin-top: -500px;
+    -webkit-transition: all 900ms;
+    transition: all 900ms;
+    -webkit-box-shadow: 0px 1px 20px 5px #4CAF50;
+    box-shadow: 0px 1px 20px 5px #4CAF50;
+}
+
+.content-4 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(56, 142, 60, .4);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -850px;
+    margin-top: -500px;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.content-img:hover .content-1 {
+    width: 300%;
+    -webkit-transition: all 900ms;
+    transition: all 900ms;
+}
+
+.content-img:hover .content-2 {
+    width: 300%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-img:hover .content-3 {
+    width: 300%;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.content-img:hover .content-4 {
+    width: 300%;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.content-img:hover img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+.content-txt {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    padding: 0px;
+    z-index: 3500;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-txt h2 {
+    font-size: 16px;
+    opacity: 0;
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-txt p {
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-img:hover h2 {
+    opacity: 1;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.content-img:hover p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contentiles {
+    width: 100%;
+    background: white;
+    padding: 50px;
+    margin-top: 20vh;
+}
+
+.contentiles h1 {
+    text-align: center;
+}
+
+.content-icon-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.content-icon {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    margin-top: 40px;
+}
+
+.content-icon:hover {
+    -webkit-box-shadow: 0px 10px 40px -5px black;
+    box-shadow: 0px 10px 40px -5px black;
+}
+
+.content-icon img {
+    width: 150px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 40px -10px black;
+    box-shadow: 0px 0px 40px -10px black;
+}
+
+.content-icon h4 {
+    margin-top: 10px;
+}
+
+.content-icon p {
+    margin-top: 10px;
+}
+
+hr {
+    border-top: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+    border-left: none;
+    border-right: none;
+    height: 6px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.parrafo1 {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 800px;
+    font-size: 20px;
+}
+
+.content-pro {
+    background-image: url(../images/fondol.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.content-cont {
+    width: 80%;
+    margin: auto;
+    background: #59CDC0;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30vh;
+}
+
+.content-pro img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.content-pro h1 {
+    margin-top: 20px;
+}
+
+.content-pro p {
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
